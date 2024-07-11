@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVG-アニメ１</title>
+    <style>
+        .test{
+            width: 200px;
+            height: 200px;
+            background-color: #ff0;
+            margin: 30px auto;
+            /* animation実行 */
+            animation: test 10s ease 2s forwards;
+        }
+        @keyframes test{
+            0%{
+                background-color: #ff0;
+
+            }
+            100%{
+                background-color: #f00;
+                width: 50px;
+                height: 50px;
+
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="test"></div>
+    
+</body>
+</html>
